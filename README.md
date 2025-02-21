@@ -10,6 +10,7 @@ Welcome to my portfolio repository! This project contains a collection of works 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [How To Use](#how-to-use)
+- [Live Demo](#live-demo)
 
 ## About Project
 
