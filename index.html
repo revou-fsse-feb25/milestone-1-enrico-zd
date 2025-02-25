@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enrico Zada Portofolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
     <body>
         <!-- header -->
@@ -21,7 +22,7 @@
         <main>
             <!-- Home section -->
             <section id="home">
-                <h1>Hi, I'm Enrico</h1>
+                <h1>Hi, I'm <span>Enrico</span></h1>
                 <p>I’m passionate about programming, especially website and web application development.</p>
                 <div class="social-media">
                     <a href="https://www.instagram.com/enrico_zd/" target="_blank"><img src="./assets/img/social-media/instagram.png" alt="instagram"></a>
@@ -33,7 +34,8 @@
 
             <!-- About section -->
             <section id="about">
-                <h2>I'm Enrico</h2>
+                <h2>About</h2>
+                <h3>I'm Enrico</h3>
                 <p>A fresh graduate in Informatics Engineering from Universitas Dian Nuswantoro. 
                     I have a strong interest in full-stack development and am eager to apply my 
                     skills in building innovative web applications. I'm excited to continue learning 
@@ -63,7 +65,6 @@
 
                 <!-- My Skill -->
                 <h3>My Skill</h3>
-                <h4>Program Language</h4>
                 <div class="pl-skill">
                     <ul>
                         <li><img src="./assets/img/program-language/python.png" alt="python"></li>
@@ -75,23 +76,27 @@
 
             <!-- Project section -->
             <section id="project">
-                <h2>My Project</h2>
-                <div class="card-project">
-                    <img src="./assets/img/project/future-project.png" alt="project name1">
-                    <h3>Future Project</h3>
-                    <p>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. Necessitatibus, corrupti?</p>
-                    <p>HTML, CSS, JavaScript</p>
-                </div>
-                <div class="card-project">
-                    <img src="./assets/img/project/future-project.png" alt="project name2">
-                    <h3>Future Project</h3>
-                    <p>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. Necessitatibus, corrupti?</p>
-                    <p>HTML, CSS, JavaScript</p>
-                </div>
+                <h2>My <span>Project</span></h2>
+                <div class="card-container">
+                    <div class="card-project">
+                        <img src="./assets/img/project/future-project.png" alt="project name1">
+                        <h3>Future Project</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, corrupti?</p>
+                        <p><mark>HTML</mark>, <mark>CSS</mark>, <mark>JavaScript</mark></p>
+                    </div>
+                    <div class="card-project">
+                        <img src="./assets/img/project/future-project.png" alt="project name2">
+                        <h3>Future Project</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, corrupti?</p>
+                        <p><mark>HTML</mark>, <mark>CSS</mark>, <mark>JavaScript</mark></p>
+                    </div>
+            </div>
             </section>
 
             <!-- Contact section -->
             <section id="contact">
+                <h2>Send me a message!</h2>
+                <p>Have a project idea, a question, or just want to say hello? Drop me a message—I’d love to hear from you!</p>
                 <form action="" method="post">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" placeholder="Your Name" required><br>
@@ -99,17 +104,17 @@
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" placeholder="example@gmail.com" required><br>
 
-                    <label for="message">Message:</label><br>
+                    <label for="message">Message:</label>
                     <textarea id="message" name="message" rows="4" required></textarea><br>
 
-                    <button type="submit">Submit</button>
+                    <button type="submit">Send Message</button>
                 </form>
             </section>
         </main>
 
         <!-- footer -->
         <footer>
-            <p>Copyright &copy;2025 by <span style="color: rgb(160, 156, 152);">Enrico Zada</span></p>
+            <p>Copyright &copy;2025 by <span style="color: #D1F8EF;">Enrico Zada</span></p>
         </footer>
     </body>
 </html>
