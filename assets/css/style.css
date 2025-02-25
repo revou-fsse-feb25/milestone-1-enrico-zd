@@ -1,0 +1,181 @@
+@import url(./font-style.css);
+@import url(./button-style.css);
+
+body{
+    margin: 0;
+}
+
+/* styling header */
+header{
+    margin-top: 4rem;
+    
+}
+
+header > nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+header > nav > a{
+    text-decoration: none;
+    color: black;
+}
+
+header > nav > a:hover{
+    color: #578FCA;
+}
+
+/* styling main */
+
+/* home section */
+
+
+/* about section */
+#about{
+    width: 100%;
+    background-color: #1E2233;
+}
+
+#about > h2, #about > h3{
+    color: #D1F8EF;
+}
+
+#about > p{
+    color: white;
+}
+
+#about .pl-skill > ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 1em;
+}
+
+
+/* project section */
+#project > h2{
+    margin: 0;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+
+.card-project{
+    flex-basis: 1em;
+    margin: 5%;
+    box-shadow: 8px 8px 12px rgb(168, 167, 167);
+}
+
+.card-project h3, .card-project p{
+    margin: 2% 0% 2% 52px;
+}
+
+.card-project img{
+    width: 400px;
+    height: 200px;
+}
+
+.card-project mark{
+    background-color: #D9D9D9;
+    color: #1E1E1E;
+    padding: 0 1% 0 1%;
+    border-radius: 8px;
+}
+
+/* contact section */
+#contact > h2{
+    margin: 0;
+    margin-top: 4rem;
+    text-align: center;
+    color: #578FCA;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact > p {
+    text-align: center;
+    margin: 1rem 0 2rem 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#contact label {
+    color: #578FCA;
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-bottom: 1px solid #0A66C2;;
+    border-radius: 0;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+#contact input::placeholder,
+#contact textarea::placeholder {
+    color: #578FCA;
+    opacity: 0.45;
+}
+
+#contact textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+#contact button {
+    background-color: #578FCA;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+#contact button:hover {
+    background-color: #4677b0;
+}
+
+/* styling footer */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background: #578FCA;
+    margin-top: 8%;
+}
+
+footer p{
+    color: white;
+    margin: 0%;
+}
