@@ -18,8 +18,16 @@ h3{
     font-size: 1rem;
 }
 
+h1, h2, h3{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 5%;
+}
+
 p, nav > a{
     font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 span{

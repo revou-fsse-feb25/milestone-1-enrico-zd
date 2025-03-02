@@ -1,0 +1,78 @@
+@media  screen and (max-width: 768px) {
+    /* font */
+    h1{
+        font-size: 3rem;
+    }
+    
+    h2{
+        font-size: 2rem;
+    }
+    
+    h3{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    /* header section */
+    header > nav{
+        gap: 0.8em;
+        padding-top: 6%;
+    }
+
+    /* home section */
+    #home{
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .home-content{
+        order: 1;
+    }
+
+    .home-personal-picture > img{
+        width: 80%;
+        margin: 8%;
+        margin-bottom: 0;
+    }
+
+    /* about section */
+    .about-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr 1fr 1fr;
+        margin: 0;
+    }
+    .work-experience{
+        grid-column: 1 / 2;
+    }
+    
+    .my-skill{
+        grid-row: 4 / 5; 
+    }
+
+    /* project section */
+    .card-container {
+    flex-direction: column;
+    padding: 0 15px;
+   }
+
+
+   /* contact section */
+    .name-email-form{
+        flex-direction: column;
+    }
+    
+    .form-name, .form-email{
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+   /* footer section */
+   footer{
+        height: 100px;
+   }
+}
