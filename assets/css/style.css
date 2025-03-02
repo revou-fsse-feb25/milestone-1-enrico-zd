@@ -6,17 +6,19 @@ body{
 }
 
 /* styling header */
-header{
-    margin-top: 4rem;
-    
-}
 
 header > nav{
     display: flex;
-    width: 100%;
-    justify-content: center;
     align-items: center;
-    gap: 4rem;
+    justify-content: center;
+    padding-top: 4%;
+    gap: 3em;
+    width: 100%;
+}
+
+header > nav > a{
+    padding: 0%;
+    margin: 0%;
 }
 
 header > nav > a{
@@ -31,23 +33,74 @@ header > nav > a:hover{
 /* styling main */
 
 /* home section */
+#home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5% 10% 6% 10%;
+}
+
+.home-content > h1{
+    margin-bottom: 0;
+}
+
+.home-content > p{
+    margin-top: 0;
+}
+
+.home-personal-picture > img{
+    width: 100%;
+}
+
+.social-media{
+    display: flex;
+    margin-left: 5%;
+    gap: 1em;
+}
 
 
 /* about section */
 #about{
     width: 100%;
     background-color: #1E2233;
+    padding-bottom: 5em;
 }
 
-#about > h2, #about > h3{
+.about-container{   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0 10%;
+}
+
+.work-experience{
+    grid-column: 2/3;
+}
+
+.my-skill{
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+#about > h2{
+    text-align: center;
+    padding-top: 0.5em;
+    margin-left: 0;
+}
+
+#about > h3{
+    margin-bottom: 0.5em;
+}
+
+#about > h2, .about-container  h3{
     color: #D1F8EF;
 }
 
-#about > p{
+.about-container p{
     color: white;
+    /* font-size: 1rem; */
 }
 
-#about .pl-skill > ul {
+.pl-skill > ul {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -57,32 +110,37 @@ header > nav > a:hover{
     gap: 1em;
 }
 
+.pl-skill{
+    padding-bottom: 0.5em;
+    padding-left: 3%;
+}
 
 /* project section */
 #project > h2{
     margin: 0;
-    margin-top: 4rem;
+    padding-top: 0.5em;
     text-align: center;
 }
 
 .card-container{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
 }
 
 .card-project{
-    flex-basis: 1em;
     margin: 5%;
+    border-radius: 5% 5% 3% 3%;
     box-shadow: 8px 8px 12px rgb(168, 167, 167);
 }
 
 .card-project h3, .card-project p{
-    margin: 2% 0% 2% 52px;
+    margin: 2% 2% 2% 10%;
 }
 
 .card-project img{
-    width: 400px;
-    height: 200px;
+    width: 100%;
+    height: auto;
+    border-radius: 5% 5% 0 0;
 }
 
 .card-project mark{
@@ -95,46 +153,53 @@ header > nav > a:hover{
 /* contact section */
 #contact > h2{
     margin: 0;
-    margin-top: 4rem;
+    padding-top: 2em;
     text-align: center;
     color: #578FCA;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #contact > p {
     text-align: center;
-    margin: 1rem 0 2rem 0;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 80%;
+    margin: 1% auto 4% auto;
 }
 
 #contact form {
-    max-width: 600px;
+    max-width: 80%;
     margin: 0 auto;
-    padding: 0 20px;
 }
 
 #contact label {
     color: #578FCA;
-    display: block;
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
+}
+
+.name-email-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-name{
+    flex-grow: 1;
+    margin-right: 1em;
+}
+
+.form-email{
+    flex-grow: 1;
+    margin-left: 1em;
 }
 
 #contact input,
 #contact textarea {
     width: 100%;
-    padding: 0.8rem;
+    padding: 0.8rem 0;
     margin-bottom: 1.5rem;
     border: none;
-    border-bottom: 1px solid #0A66C2;;
+    border-bottom: 1px solid #0A66C2;
     border-radius: 0;
     font-size: 1rem;
     outline: none;
-    transition: border-color 0.3s ease;
 }
 
 #contact input::placeholder,
@@ -145,23 +210,25 @@ header > nav > a:hover{
 
 #contact textarea {
     resize: vertical;
-    min-height: 120px;
 }
 
 #contact button {
-    background-color: #578FCA;
-    color: white;
+    background-color: white;
+    color: #0A66C2;
     padding: 1rem 2rem;
-    border: none;
+    border: 1px solid #0866FF;
     border-radius: 4px;
     font-size: 1.2rem;
     cursor: pointer;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto; 
+    transition: background-color 0.6s ease;
 }
 
 #contact button:hover {
-    background-color: #4677b0;
+    background-color: #578FCA;
+    color: white;
+    border: none;
 }
 
 /* styling footer */
