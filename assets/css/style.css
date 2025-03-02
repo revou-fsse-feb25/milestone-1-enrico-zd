@@ -42,10 +42,12 @@ header > nav > a:hover{
 
 .home-content > h1{
     margin-bottom: 0;
+    margin-bottom: 3%;
 }
 
 .home-content > p{
     margin-top: 0;
+    margin-right: 24%;
 }
 
 .home-personal-picture > img{
@@ -63,13 +65,13 @@ header > nav > a:hover{
 #about{
     width: 100%;
     background-color: #1E2233;
-    padding-bottom: 1em;
+    padding-bottom: 5em;
 }
 
 .about-container{   
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
     margin: 0 10%;
 }
 
@@ -83,8 +85,9 @@ header > nav > a:hover{
 
 #about > h2{
     text-align: center;
-    padding-top: 0.5em;
+    padding-top: 1.5em;
     margin-left: 0;
+    margin-bottom: 1em;
 }
 
 #about > h3{
@@ -111,24 +114,24 @@ header > nav > a:hover{
 }
 
 .pl-skill{
-    padding-bottom: 0.5em;
     padding-left: 3%;
 }
 
 /* project section */
 #project > h2{
     margin: 0;
-    padding-top: 0.5em;
+    padding-top: 1.5em;
     text-align: center;
 }
 
 .card-container{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .card-project{
-    margin: 5%;
+    margin: 4%;
     border-radius: 5% 5% 3% 3%;
     box-shadow: 8px 8px 12px rgb(168, 167, 167);
 }

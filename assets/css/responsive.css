@@ -40,6 +40,14 @@
     }
 
     /* about section */
+    #about{
+        padding-bottom: 3em;
+    }
+
+    #about > h2{
+        margin-bottom: 0.5em;
+    }
+
     .about-container{
         display: grid;
         grid-template-columns: 1fr;
