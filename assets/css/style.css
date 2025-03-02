@@ -211,6 +211,10 @@ header > nav > a:hover{
     opacity: 0.45;
 }
 
+#contact input[type="text"], #contact input[type="email"], #contact textarea {
+    color: #578FCA;
+}
+
 #contact textarea {
     resize: vertical;
 }
