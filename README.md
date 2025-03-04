@@ -21,11 +21,12 @@ This project is my personal portfolio showcasing various projects I have worked 
 - Easy navigation
 - Project gallery with descriptions
 - Contact form
-- Responsive design (In Development)
+- Responsive design
 
 ## Technologies Used
 
 - HTML
+- CSS
 
 ## How To Use
 
@@ -41,5 +42,7 @@ This project is my personal portfolio showcasing various projects I have worked 
 3. Open the `index.html` file located in the project directory using [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) or the [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) extension to view the webpage locally.
 
 ## Live Demo
+
+![Ilustration of the website](./assets/img/ss-website-portofolio.png)
 
 You can view the live version of my portfolio website here: [Portfolio Website](https://revou-fsse-feb25.github.io/milestone-1-enrico-zd/)
