@@ -1,0 +1,27 @@
+.pl-skill > ul > li{
+    position: relative;
+    animation: mymove 2s infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes mymove {
+      0% {top: 0px;}
+      25% {top: 5px;}
+      50% {top: 0px;}
+      75% {top: -5px;}
+      100% {top: 0px;}
+  }
+  
+  .pl-skill > ul > li:nth-child(2){
+    position: relative;
+    animation: mymove2 2s infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes mymove2 {
+      0% {top: 0px;}
+      25% {top: -5px;}
+      50% {top: 0px;}
+      75% {top: 5px;}
+      100% {top: 0px;}
+  }
