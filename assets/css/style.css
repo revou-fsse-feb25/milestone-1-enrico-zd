@@ -51,8 +51,13 @@ header > nav > a:hover{
     margin-right: 24%;
 }
 
-.home-personal-picture > img{
+.home-personal-picture img{
     width: 100%;
+    border-radius: 16%;
+}
+
+.home-personal-picture img:hover{
+    box-shadow: 3px 3px 30px gray;
 }
 
 .social-media{

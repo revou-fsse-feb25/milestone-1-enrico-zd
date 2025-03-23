@@ -33,9 +33,9 @@
         order: 1;
     }
 
-    .home-personal-picture > img{
+    .home-personal-picture  img{
         width: 80%;
-        margin: 8%;
+        margin-top: 8%;
         margin-bottom: 0;
     }
 
