@@ -45,4 +45,4 @@ This project is my personal portfolio showcasing various projects I have worked 
 
 ![Ilustration of the website](./assets/img/ss-website-portofolio.png)
 
-You can view the live version of my portfolio website here: [Portfolio Website](https://revou-fsse-feb25.github.io/milestone-1-enrico-zd/)
+You can view the live version of my portfolio website here: [Portfolio Website](https://enrico-zd.site/)
