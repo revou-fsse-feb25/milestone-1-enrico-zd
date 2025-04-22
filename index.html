@@ -46,7 +46,7 @@
                 <div class="home-personal-picture">
                     <picture>
                         <source media="(min-width:768px)" srcset="./assets/img/personal-image/enzd-desktop.png">
-                        <img src="./assets/img/personal-image/enzd-mobile.png" style="width:auto;">
+                        <img src="./assets/img/personal-image/enzd-mobile.png" style="width: 360px; height: auto;">
                       </picture> 
                 </div>
             </section>
@@ -107,11 +107,14 @@
             <section id="project">
                 <h2>My <span>Project</span></h2>
                 <div class="card-container">
-                    <div class="card-project">
-                        <img src="./assets/img/project/future-project.png" alt="project name1">
-                        <h3>Future Project</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, corrupti?</p>
-                        <p><mark>HTML</mark>, <mark>CSS</mark>, <mark>JavaScript</mark></p>
+                    <div class="card-project" onclick="revoFun()" style="cursor: pointer;">
+                        <img src="./assets/img/project/ss-website-game.png" alt="project name1">
+                        <h3>RevoFun - Interactive Website Games</h3>
+                        <p>
+                            RevoFun is an interactive web-based game collection platform that offers multiple mini-games in a single, user-friendly interface. 
+                            The project focuses on delivering a fun gaming experience.
+                        </p>
+                        <p><mark>HTML</mark>, <mark>Tailwind</mark>, <mark>JavaScript</mark></p>
                     </div>
                     <div class="card-project">
                         <img src="./assets/img/project/future-project.png" alt="project name2">
@@ -151,5 +154,11 @@
         <footer>
             <p>Copyright &copy;2025 by <span style="color: #D1F8EF;">Enrico Zada</span></p>
         </footer>
+
+        <script>
+            function revoFun(){
+                window.open('https://revofun-ez.netlify.app/', "_blank");
+            }
+        </script>
     </body>
 </html>
