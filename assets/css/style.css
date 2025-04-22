@@ -136,6 +136,8 @@ header > nav > a:hover{
 }
 
 .card-project{
+    width: 400px;
+    height: auto;
     margin: 4%;
     border-radius: 5% 5% 3% 3%;
     overflow: hidden;

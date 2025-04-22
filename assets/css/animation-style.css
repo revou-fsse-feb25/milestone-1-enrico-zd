@@ -26,12 +26,3 @@
     75% {top: 5px;}
     100% {top: 0px;}
 }
-
-/* zooming card */
-.card-project{
-  transition: transform .2s;
-}
-
-.card-project:hover{
-  transform: scale(1.1);
-}
