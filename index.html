@@ -108,13 +108,20 @@
                 <h2>My <span>Project</span></h2>
                 <div class="card-container">
                     <div class="card-project" onclick="revoFun()" style="cursor: pointer;">
-                        <img src="./assets/img/project/ss-website-game.png" alt="project name1">
-                        <h3>RevoFun - Interactive Website Games</h3>
+                        <img src="./assets/img/project/ss-website-game.png">
+                        <h3 style="height: 56px;">RevoFun - Interactive Website Games</h3>
                         <p>
-                            RevoFun is an interactive web-based game collection platform that offers multiple mini-games in a single, user-friendly interface. 
-                            The project focuses on delivering a fun gaming experience.
+                            RevoFun is an interactive web-based game collection platform that offers multiple mini-games in a single, user-friendly interface.
                         </p>
                         <p><mark>HTML</mark>, <mark>Tailwind</mark>, <mark>JavaScript</mark></p>
+                    </div>
+                    <div class="card-project" onclick="revoShop()" style="cursor: pointer;">
+                        <img src="./assets/img/project/ss-website-revoshop.png">
+                        <h3 style="height: 56px;">RevoShop - E-commerce Website</h3>
+                        <p>
+                            RevoShop is an e-commerce website that integrates with the Platzi Fake Store API to provide a modern shopping experience.
+                        </p>
+                        <p><mark>HTML</mark>, <mark>Tailwind</mark>, <mark>Typescript</mark>, <mark>Next.js</mark></p>
                     </div>
                     <div class="card-project">
                         <img src="./assets/img/project/future-project.png" alt="project name2">
@@ -158,6 +165,9 @@
         <script>
             function revoFun(){
                 window.open('https://revofun-ez.netlify.app/', "_blank");
+            }
+            function revoShop(){
+                window.open('https://revoshop-ez.vercel.app/', "_blank");
             }
         </script>
     </body>
